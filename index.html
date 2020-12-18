@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        font: 0;
+        margin: 0;
+      }
+      .aa {
+        position: relative;
+        width: 100vw;
+        height: 100vh;
+        background-color: red;
+        /* display: flex; */
+        white-space: nowrap;
+        overflow-x: auto;
+      }
+      .bb {
+        position: fixed;
+        height: 90%;
+        width: 10%;
+        left: 0;
+        top: 0;
+        background-image: linear-gradient(
+          to right,
+          rgba(0, 0, 255, 1),
+          rgba(0, 0, 255, 1),
+          rgba(0, 0, 0, 0.3)
+        );
+      }
+      .cc {
+        width: 30%;
+        height: 90%;
+        margin-left: 30px;
+        display: inline-block;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="aa">
+      <div class="bb" style="">aa</div>
+      <div class="cc" style="background: yellow" ></div>
+      <div class="cc" style="background: green"></div>
+      <div class="cc" style="background: black"></div>
+      <div class="cc" style="background: blue"></div>
+      <div class="cc" style="background: gold"></div>
+    </div>
+  </body>
+</html>
